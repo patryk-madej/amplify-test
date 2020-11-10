@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "newtest28dba0183": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2020-11-10T20:18:07.901Z"
+    }
+  }
+}

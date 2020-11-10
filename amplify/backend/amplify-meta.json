@@ -1,0 +1,47 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-newtest2-dev-152400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::802417493432:role/amplify-newtest2-dev-152400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::802417493432:role/amplify-newtest2-dev-152400-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-newtest2-dev-152400-deployment",
+      "UnauthRoleName": "amplify-newtest2-dev-152400-unauthRole",
+      "StackName": "amplify-newtest2-dev-152400",
+      "StackId": "arn:aws:cloudformation:eu-west-2:802417493432:stack/amplify-newtest2-dev-152400/c3a3e080-2368-11eb-a7ac-0a59b452f05c",
+      "AmplifyAppId": "d14grht528mlc2"
+    }
+  },
+  "auth": {
+    "newtest28dba0183": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-newtest2-dev-152400-deployment/amplify-cfn-templates/auth/newtest28dba0183-cloudformation-template.yml",
+        "logicalId": "authnewtest28dba0183"
+      },
+      "lastPushTimeStamp": "2020-11-10T20:18:22.903Z",
+      "output": {
+        "AppClientSecret": "b08jucalhbv842icnf2qg0jrqpnm2ukvbtsdei8t8cjf7qevi4b",
+        "UserPoolId": "eu-west-2_ywl2IdeCL",
+        "AppClientIDWeb": "4jhjf35u45250tfbmrm1c7t8c0",
+        "AppClientID": "1pngqog0teqf3696cr2fvocpip",
+        "HostedUIDomain": "new-test2-dev",
+        "IdentityPoolId": "eu-west-2:c9754747-82b5-45d5-8f12-9ddaa34db4b5",
+        "IdentityPoolName": "newtest28dba0183_identitypool_8dba0183__dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://dev.d28mji38lr86lo.amplifyapp.com/\"],\"LogoutURLs\":[\"https://dev.d28mji38lr86lo.amplifyapp.com/\"]}",
+        "UserPoolName": "newtest28dba0183_userpool_8dba0183"
+      },
+      "lastPushDirHash": "HJWfiYRojg07ZzdY6aNKWOyVnR4="
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2020-11-10T20:18:07.901Z"
+    }
+  }
+}
